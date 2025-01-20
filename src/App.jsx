@@ -1,8 +1,8 @@
-
+import WelcomeMesasge from "./components/welcomeMesasge";
 
 const App = () => {
 
-  return <>   </>
+  return <WelcomeMesasge/>
   
 
 }
