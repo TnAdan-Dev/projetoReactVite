@@ -1,10 +1,15 @@
-import WelcomeMesasge from "./components/welcomeMesasge";
+import React from 'react'
+import ProductList from './components/ProductList'
+import UserList from './components/UserList'
+
 
 const App = () => {
-
-  return <WelcomeMesasge/>
-  
-
+  return (
+    <section>
+      <UserList/>
+      <ProductList/>
+    </section>
+  )
 }
 
-export default App;
+export default App
