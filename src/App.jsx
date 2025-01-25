@@ -1,15 +1,14 @@
-import React from 'react'
-import ProductList from './components/ProductList'
-import UserList from './components/UserList'
-
+import React from "react";
+import Person from "./components/Person";
+import Product from "./components/Product";
 
 const App = () => {
   return (
     <section>
-      <UserList/>
-      <ProductList/>
+      <Person name="ademir" age="18" />
+      <Product name="piscina olimpica" price="29999"/>
     </section>
-  )
-}
+  );
+};
 
-export default App
+export default App;
